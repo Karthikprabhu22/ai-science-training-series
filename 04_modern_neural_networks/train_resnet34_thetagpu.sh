@@ -3,8 +3,12 @@
 #COBALT -q single-gpu
 #COBALT -A ALCFAITP
 #COBALT -n 1
+<<<<<<< HEAD
 
 #COBALT --attrs filesystems=home:grand
+=======
+#COBALT --attrs filesystems=home,grand
+>>>>>>> upstream/main
 
 # Set up software deps:
 module load conda/2022-07-01
