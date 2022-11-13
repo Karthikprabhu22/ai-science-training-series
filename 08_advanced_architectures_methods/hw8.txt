@@ -1,0 +1,5 @@
+How could you use AI for a problem that interests you?
+What is the task?
+What kind of data would you use?
+What kind of method or model might be appropriate?
+What kind of metric would you use to measure success?
