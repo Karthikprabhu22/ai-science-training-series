@@ -1,0 +1,14 @@
+1. How could you use AI for a problem that interests you?
+- I would be interested in applying ML to process medical images and automate some part of the diagnosis to reduce the waiting times for patients and also to reduce the workload of medical professionals. 
+
+What is the task?
+- It is a classification task which takes medical images such as X-ray scans and classifies them according to the severity of the underlying medical issue and recommends further course of action, requiring minimal human intervention.
+
+What kind of data would you use?
+- Medical images such as X-ray scans
+
+What kind of method or model might be appropriate?
+- A image based classification algorithm such as Convolutional Neural Network might be appropriate for this task.
+
+What kind of metric would you use to measure success?
+- We would require a metric that would have a small false negative rate, along with a cost based metric to take into account the severity of the issue. So a cost based recall metric might be appropriate to use here.
