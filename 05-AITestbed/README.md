@@ -3,13 +3,13 @@
 
 Scientific applications are increasingly adopting Artificial Intelligence (AI) techniques to advance science. There are specialized hardware accelerators designed and built to run AI applications efficiently. With a wide diversity in the hardware architectures and software stacks of these systems, it is challenging to understand the differences between these accelerators, their capabilities, programming approaches, and how they perform, particularly for scientific applications. 
 
-We will cover an overview of the AI accelerators landscape with a focus on SambaNova, Cerebras-CS3, Sambanova SN40-L (Metis) and Groq systems along with architectural features and details of their software stacks. We will have hands-on exercises that will help attendees understand how to program these systems by learning how to refactor codes written in standard AI framework implementations and compile and run the models on these systems. 
+We will cover an overview of the AI accelerators landscape with a focus on Cerebras-CS3 for training, and Sambanova SN40-L (Metis) for inference jobs, along with architectural features and details of their software stacks. We will have hands-on exercises that will help attendees understand how to program these systems by learning how to refactor codes written in standard AI framework implementations and compile, run and evaluate the models on these systems. 
 
 
 
 ## Slides
 
-* [Intro to AI Series: AI Accelerators]() 
+* [Intro to AI Series: AI Accelerators](./ALCF_HandsOn_AIScience-training-series-Nov2025.pdf) 
  
 
 ## Hands-On Sessions
@@ -17,7 +17,10 @@ We will cover an overview of the AI accelerators landscape with a focus on Samba
 
 * [Cerebras](./Cerebras/README.md)
 * [SambaNova](./SambaNova/README.md)                                    
-* [Groq](./Groq/README.md)        
+
+## Homework 
+* Cerebras Homework : Run the Llama-7B example for different batch sizes and compare the performance.
+* Sambanova Homework : Use your choice of huggingface dataset and compare the performance on GptOSS model using both Metis and Sophia, reason out the possible differences. 
 
 ## Documentation 
 * [ALCF Documentation](https://docs.alcf.anl.gov/ai-testbed/)
