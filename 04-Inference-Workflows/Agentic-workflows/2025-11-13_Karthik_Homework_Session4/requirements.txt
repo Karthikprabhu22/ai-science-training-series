@@ -1,0 +1,7 @@
+langgraph>=0.2.3
+langchain-openai>=0.2.0
+langchain-core>=0.2.0
+yt-dlp
+numpy>=1.26.0
+requests
+globus_sdk
